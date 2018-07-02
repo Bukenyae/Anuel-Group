@@ -1,0 +1,156 @@
+body {
+	color: #000305;
+	font-size: 87.5%; 
+	font-family: Arial, 'lucida Sans unicode';
+	line-height: 1.5
+	text-align:left;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+a:link, a:visited {
+	color: rgb(169,169,169);
+
+}
+
+a:hover, a:active {
+	color:#FFA500;
+
+
+}
+
+.body {
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+
+}
+
+.mainHeader img {
+	width: 20%;
+	Height: auto;
+	margin: 2% 0;
+
+}
+
+.mainHeader nav {
+	background-color: rgb(255, 0, 0);
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.mainHeader nav ul{
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li{
+	float: left;
+	display: inLine;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active
+	.mainHeader nav .active a:link, .mainHeader nav .active a:visited{
+		background-color: #FFA500;
+		text 
+	}
+
+.mainHeader nav ul li a{
+	order-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+
+
+.mainContent {
+	line-height: 25px;
+	order-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.content {
+	width: 100%;
+	float: center;
+}
+
+.topcontent {
+	background-color: #FFF;
+	order-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding 3% 5%;
+	margin-top: 2%
+}
+
+.mainFooter {
+	width:100%;
+	height: 30px;
+	float: left;
+	order-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+
+	}
+
+
+.mainFooter p {
+	width: 92%;
+	margin: 0%;
+	color: rgb(211,211,211);
+
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px) {
+   
+   .body {
+		width: 90%;
+		font-size: 90%;
+
+    }
+
+    .mainHeader img {
+	width: 100%;
+
+	}
+
+	.mainHeader nav {
+		height: 160px;
+	}
+
+	.mainHeader nav ul{
+		padding-left: 0;
+	}
+
+	.mainHeader nav ul li{
+		width:100%;
+		text-align: center;
+	}
+
+	.mainHeader nav a:link, .mainHeader nav a:visited {
+		padding: 10px 25px;
+		height: 20px;
+		display:block;
+	}
+
+	.content {
+		width: 100%;
+		float: left;
+		margin-top: 2%;
+	}
+

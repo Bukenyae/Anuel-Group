@@ -1,0 +1,87 @@
+/* Theme name : CSS3 contact form
+	Date: June 2018
+	Description: html/css3 contact form;
+	Version:1.0
+	Author: Emmanuel Bukenya
+	Author url: http://anuelgroup.com;
+
+*/
+
+/* ############# Body stle ###########. */ 
+
+body { 
+	margin: 0;
+	padding: 0; 
+	text-align: center;
+	background: url(Pic1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-position: center; 
+	font-family: sans-serif;
+
+}
+.contact-title {
+	margin-top: 100px;
+	color: #000000;
+	text-transform: none;
+	transition: all 4s case-in-out;
+}
+
+.contact-title h1{
+	font-size:20px;
+	line-height: 10px;
+}
+
+.contact-title h2{
+	font-size: 16px;
+
+}
+
+form{
+	margin-top: 50x
+	transition: all 4s ease-in-out;
+
+}
+
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #000000;
+	font-size: 18px;
+	margin-bottom: 16px;
+
+}
+
+input{
+	height: 45px;
+}
+
+form .submit{
+	background: #ff5722;
+	border-color: transparent;
+	color:#fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing:2px;
+	height:50px;
+	margin-top: 20px;
+
+}
+
+form .submit:hover{
+	background-color: #f44336;
+	cursor: pointer;
+}
+
+.mainFooter p {
+	width: 92%;
+	margin: 0%;
+	color: #A9A9A9;
+	text-align: center;
+
+}
+
+/* ########## Submit Button ###########  */
